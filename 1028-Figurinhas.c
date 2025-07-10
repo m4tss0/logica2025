@@ -5,12 +5,9 @@ int mdc(int R, int V) {
         return R;
     return mdc(V, R % V);
 }
-
 int main() {
-    int N;
-    int i;
-    int F1; 
-    int F2;
+    int N, i;
+    int F1, F2;
     scanf("%d", &N);
     for (i = 0; i < N; i++) {
         scanf("%d %d", &F1, &F2);
